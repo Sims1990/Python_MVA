@@ -23,3 +23,4 @@ WORKDIR /FlaskApp
 #Expose Port
 EXPOSE 80
 EXPOSE 5000
+CMD [ "python init.py" ]
